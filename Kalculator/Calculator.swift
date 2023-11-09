@@ -23,10 +23,10 @@ enum CalculatorError:Error{
 }
 
 class Calculator {
-    private var currentNumber: String = ""
-    private var result: Int = 0
-    private var currentOperation: CalculatorOperation?
-    private var lastOperatorInput:String = ""
+    var currentNumber: String = ""
+    var result: Int = 0
+    var currentOperation: CalculatorOperation?
+    var lastOperatorInput:String = ""
     
     func inputDigit(_ digit: String) throws -> String {
         if let operation = CalculatorOperation(rawValue: digit) {

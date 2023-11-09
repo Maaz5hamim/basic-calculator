@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oaN-qY-e67">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oaN-qY-e67">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="6WR-5K-4QG">
             <objects>
-                <viewController id="oaN-qY-e67" customClass="ViewController" customModule="Kalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oaN-qY-e67" customClass="ViewController" customModule="Kalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fcN-aW-QXR"/>
                         <viewControllerLayoutGuide type="bottom" id="TIy-gn-geg"/>
@@ -21,13 +21,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ek-xr-fhU">
-                                <rect key="frame" x="16" y="52" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="32" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <color key="textColor" red="0.16179513931274414" green="0.55408746004104614" blue="0.86918073892593384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="YNa-gL-sOY">
-                                <rect key="frame" x="32" y="200.5" width="311" height="50"/>
+                                <rect key="frame" x="32" y="180.5" width="311" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Result Screen"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="IRv-Lu-TbZ"/>
                                 </constraints>
@@ -44,7 +45,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vkR-7C-3RR">
-                                <rect key="frame" x="32" y="282.5" width="311" height="352.5"/>
+                                <rect key="frame" x="32" y="262.5" width="311" height="372.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wDj-rv-wsp">
                                         <rect key="frame" x="0.0" y="0.0" width="311" height="50"/>
@@ -153,7 +154,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Tj5-wS-Gn3">
-                                        <rect key="frame" x="0.0" y="101" width="311" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.5" width="311" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dth-zt-ADB">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -249,7 +250,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OSq-wY-35D">
-                                        <rect key="frame" x="0.0" y="201.5" width="311" height="50"/>
+                                        <rect key="frame" x="0.0" y="215" width="311" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMJ-aD-Myb">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -347,7 +348,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sgY-c5-WZL">
-                                        <rect key="frame" x="0.0" y="302.5" width="311" height="50"/>
+                                        <rect key="frame" x="0.0" y="322.5" width="311" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-7d-fib">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -469,39 +470,4 @@
             <point key="canvasLocation" x="-269.60000000000002" y="-147.97601199400302"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="6NE-64-7RO">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="Dth-zt-ADB">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="IN4-LY-3eb">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="Pwb-0V-r59">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="Qx3-7d-fib">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="Raz-1e-gu0">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="ZoH-JL-nyg">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="buY-tl-CEn">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="hO2-2a-l6a">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="jVg-0A-j1a">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-        <designable name="rMJ-aD-Myb">
-            <size key="intrinsicContentSize" width="30" height="33"/>
-        </designable>
-    </designables>
 </document>
