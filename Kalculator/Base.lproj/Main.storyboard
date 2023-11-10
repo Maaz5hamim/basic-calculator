@@ -52,6 +52,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Raz-1e-gu0">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="7"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="6ff-7y-lVU"/>
                                                     <constraint firstAttribute="height" constant="50" id="XJg-ZD-M3D"/>
@@ -76,6 +77,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN4-LY-3eb">
                                                 <rect key="frame" x="87" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="8"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Hrh-7e-Qzb"/>
                                                     <constraint firstAttribute="height" constant="50" id="MEc-Fu-edU"/>
@@ -100,6 +102,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVg-0A-j1a">
                                                 <rect key="frame" x="174" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="9"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="PD7-HT-adK"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="uP5-T6-q60"/>
@@ -124,6 +127,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roH-Kh-O0W">
                                                 <rect key="frame" x="261" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="C"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="FMR-oA-raT"/>
                                                     <constraint firstAttribute="height" constant="50" id="o7A-C6-kbZ"/>
@@ -158,6 +162,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dth-zt-ADB">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="4"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="9np-iF-KOs"/>
                                                     <constraint firstAttribute="height" constant="50" id="kfs-Em-fkm"/>
@@ -180,6 +185,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoH-JL-nyg">
                                                 <rect key="frame" x="87" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="4qq-tZ-hVX"/>
                                                     <constraint firstAttribute="height" constant="50" id="CrE-4Z-OfF"/>
@@ -202,6 +208,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NE-64-7RO">
                                                 <rect key="frame" x="174" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="6"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="6n8-TU-eWx"/>
                                                     <constraint firstAttribute="height" constant="50" id="NVo-RZ-SP9"/>
@@ -224,6 +231,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFp-GT-ygk">
                                                 <rect key="frame" x="261" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="/"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="4NR-bC-wth"/>
                                                     <constraint firstAttribute="height" constant="50" id="eaV-qz-Zfy"/>
@@ -254,6 +262,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMJ-aD-Myb">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="MSr-ce-82E"/>
                                                     <constraint firstAttribute="height" constant="50" id="Phc-8r-hzw"/>
@@ -276,6 +285,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwb-0V-r59">
                                                 <rect key="frame" x="87" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="2"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="FT9-2p-mDg"/>
                                                     <constraint firstAttribute="height" constant="50" id="ph8-ZZ-BqB"/>
@@ -298,6 +308,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO2-2a-l6a">
                                                 <rect key="frame" x="174" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="4lM-hj-cFn"/>
                                                     <constraint firstAttribute="height" constant="50" id="bVl-hE-EaO"/>
@@ -320,6 +331,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmm-fd-rGL">
                                                 <rect key="frame" x="261" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="*"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="0BL-gg-CBS"/>
                                                     <constraint firstAttribute="width" constant="50" id="Mc0-Ri-Zfb"/>
@@ -352,6 +364,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-7d-fib">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="0"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="3HS-iB-W2p"/>
                                                     <constraint firstAttribute="height" constant="50" id="SQe-nl-UwO"/>
@@ -375,6 +388,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buY-tl-CEn">
                                                 <rect key="frame" x="87" y="0.0" width="50" height="50"/>
                                                 <color key="backgroundColor" red="0.1617951393" green="0.55408745999999998" blue="0.86918073890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="="/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="shk-v0-5g0"/>
                                                     <constraint firstAttribute="width" constant="50" id="y6G-LF-3cA"/>
@@ -397,6 +411,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOt-AP-Nlp">
                                                 <rect key="frame" x="174" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="+"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="Egh-5U-7FI"/>
                                                     <constraint firstAttribute="height" constant="50" id="gnX-oW-Zxv"/>
@@ -419,6 +434,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otu-j4-Zoz">
                                                 <rect key="frame" x="261" y="0.0" width="50" height="50"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="-"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="WLh-Ac-NVu"/>
                                                     <constraint firstAttribute="height" constant="50" id="aT0-TR-hya"/>
@@ -462,6 +478,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="c" destination="roH-Kh-O0W" id="EL9-yg-PBy"/>
+                        <outlet property="one" destination="rMJ-aD-Myb" id="NwD-7V-0hR"/>
                         <outlet property="resultScreen" destination="YNa-gL-sOY" id="n7g-4G-cHH"/>
                     </connections>
                 </viewController>

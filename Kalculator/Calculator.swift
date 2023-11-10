@@ -23,25 +23,29 @@ enum CalculatorError:Error{
 }
 
 class Calculator {
-    var currentNumber: String = ""
-    var result: Int = 0
-    var currentOperation: CalculatorOperation?
-    var lastOperatorInput:String = ""
+    private var currentNumber: String = ""
+    private var result: Int = 0
+    private var currentOperation: CalculatorOperation?
+    private var lastOperatorInput:String = ""
     
-    func inputDigit(_ digit: String) throws -> String {
-        if let operation = CalculatorOperation(rawValue: digit) {
-            guard lastOperatorInput != digit  else {
+    func inputDigit(_ digit: String) throws -> String
+    {
+        if let operation = CalculatorOperation(rawValue: digit)
+        {
+            guard lastOperatorInput != digit
+            else
+            {
                 return currentNumber
             }
-            
             try performOperation(operation)
             lastOperatorInput = digit
             return "\(result)"
-        } else {
+        }
+        else
+        {
             try appendDigit(digit)
             return currentNumber
         }
-        
     }
 
     func appendDigit(_ digit: String) throws {

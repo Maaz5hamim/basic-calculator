@@ -11,6 +11,8 @@ import Foundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var one: UIButton!
+    @IBOutlet weak var c: UIButton!
     private var calculator:Calculator?
     @IBOutlet weak var resultScreen: UILabel!
     
@@ -23,7 +25,6 @@ class ViewController: UIViewController {
             }catch{
                 display(result: "Err")
             }
-            
         }
     }
     
